@@ -1,4 +1,6 @@
-﻿namespace NoteAppUI
+﻿using  NoteApp;
+
+namespace NoteAppUI
 {
     partial class MainForm
     {
