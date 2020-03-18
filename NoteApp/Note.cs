@@ -59,6 +59,7 @@ namespace NoteApp
                 {
                     _name = "Без названия";
                 }
+                SetLastChangeDate(DateTime.Now);
             }
             
         }
@@ -125,11 +126,11 @@ namespace NoteApp
         /// <summary>
         /// Контструктор класса Note.
         /// </summary>
-        public Note(string Name, NoteCategory Category, string Text)
+        public Note(string name, NoteCategory category, string text)
         {
-            Name = Name;
-            Category = Category;
-            Text = Text;
+            Name = name;
+            Category = category;
+            Text = text;
             CreatureDate = DateTime.Now;
         }
 
